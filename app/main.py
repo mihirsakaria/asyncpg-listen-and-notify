@@ -31,6 +31,7 @@ async def mehere(app: FastAPI):
     
 
 app = FastAPI(lifespan=mehere)
+# app = FastAPI()
 
 @app.get("/")
 async def read_root():
