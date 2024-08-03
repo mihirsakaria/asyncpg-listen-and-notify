@@ -17,3 +17,4 @@ create trigger the_notification_trigger
 after insert on <table name> for each row
 execute function the_notification_trigger_function()
 ```
+
